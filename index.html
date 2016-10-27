@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolio" ng-controller="mainCtrl">
+<head>
+    <meta charset="UTF-8">
+    <title>Jackson Yeager</title>
+    <!--Dependencies-->
+    <link href="node_modules/angular-material/angular-material.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto:500,400|Alegreya+Sans+SC:300" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" ng-if="isActive('/')">
+    <link href="public/stylesheets/volition.css" rel="stylesheet" ng-if="isActive('/')">
+    <link href="public/stylesheets/styles.css" rel="stylesheet">
+
+</head>
+<body ng-cloak layout="column">
+
+<div layout="column" layout-fill>
+    <navigation></navigation>
+
+    <md-content flex ng-class="{'pad-top': !isActive('/')}">
+        <div ng-view="" autoscroll="true"></div>
+    </md-content>
+</div>
+
+<!--Dependencies-->
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+<script src="node_modules/angular-aria/angular-aria.min.js"></script>
+<script src="node_modules/angular-material/angular-material.min.js"></script>
+<script src="node_modules/angular-messages/angular-messages.js"></script>
+<script src="node_modules/angular-route/angular-route.min.js"></script>
+<script src="node_modules/angular-cookies/angular-cookies.min.js"></script>
+
+<!--Atropos Code-->
+<script src="main.js"></script>
+
+<!--Controllers-->
+<script src="common/directives/navigation/navigation.controller.js"></script>
+<script src="home/home.controller.js"></script>
+<script src="common/directives/segment/segment.controller.js"></script>
+
+<!--Directives-->
+<script src="common/directives/navigation/navigation.directive.js"></script>
+<script src="common/directives/compare-to.directive.js"></script>
+<script src="common/directives/scroll-position.directive.js"></script>
+<script src="common/directives/segment/segment.directive.js"></script>
+</body>
+</html>

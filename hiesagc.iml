@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassConfigPath" value="$MODULE_DIR$/public/compass/config.rb" />
+    <option name="compassExecutableFilePath" value="/usr/local/bin/compass" />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="express-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongodb-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-material-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
+    <orderEntry type="module-library">
+      <library name="PHP Runtime">
+        <CLASSES>
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/standard" />
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/standard" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular-animate" level="application" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+  </component>
+</module>

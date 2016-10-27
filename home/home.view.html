@@ -1,0 +1,115 @@
+<div style="overflow-y: hidden" id="top">
+    <div class="cover"></div>
+    <div class="top">
+        <div class="top-wrapper">
+            <h1>Hello, I'm Jackson</h1>
+            <p>I'm a full-stack web developer specializing in the MEAN Stack.</p>
+        </div>
+    </div>
+
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <video autoplay loop class="fillWidth" muted>
+                <source src="public/images/Love-Coding.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
+    </div>
+</div>
+
+<segment title="Nice to meet you!" color="white" id="about">
+    <p class="lead">My name is Jackson. But enough about me - let's talk code</p>
+    <div class="row">
+        <div class="col-md-4">
+            <h2><i class="fa fa-file-code-o" aria-hidden="true"></i></h2>
+            <h3>Front-End Development</h3>
+            <p>As a full-stack developer I can both build and design websites that are fully responsive on all viewports. In my spare time, I build open-source software.</p>
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-database" aria-hidden="true"></i></h2>
+            <h3>Back-End Development</h3>
+            <p>As well as being able to design a website, I can build and configure the backend. I specialize in the MEAN stack, though I am knowledgeable with Python.</p>
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-paint-brush" aria-hidden="true"></i></h2>
+            <h3>UI/UX Design</h3>
+            <p>As a UI/UX-trained developer, all websites that I build will be beautiful, functional, and intuitive. Check out my projects on Github for proof!</p>
+        </div>
+    </div>
+</segment>
+
+<segment title="Project Showcase" color="grey" triangle="white" id="projects">
+    <p class="lead">These are the projects I am most proud of. You can find a complete work history on my Github.</p>
+    <div layout="row" layout-wrap>
+        <div flex="33" flex-md="50" flex-sm="90" flex-xs="90" ng-repeat="project in projects">
+            <md-card>
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">{{project.title}}</span>
+                        <span class="md-subhead">{{project.subhead}}</span>
+                    </md-card-title-text>
+                    <md-card-title-media>
+                        <div class="md-media-sm">
+                            <img ng-src="public/images/dev-logos/{{project.img}}.png">
+                        </div>
+                    </md-card-title-media>
+                </md-card-title>
+                <md-card-content>
+                    <p>{{project.description}}</p>
+                </md-card-content>
+                <md-card-actions>
+                    <md-button class="md-primary" ng-href="{{project.source}}" ng-disabled="!project.source">Source</md-button>
+                    <md-button class="md-accent" ng-href="{{project.demo}}" ng-disabled="!project.demo">Live Demo</md-button>
+                </md-card-actions>
+            </md-card>
+        </div>
+    </div>
+</segment>
+
+<div class="spacer-md">
+    <div class="triangle triangle-grey"></div>
+</div>
+
+<segment title="Why Hire Me?" color="white" id="whyhire">
+    <p class="lead">You could throw a penny in a crowded street and hit 7 web developers. Why hire me?</p>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2><i class="fa fa-git" aria-hidden="true"></i></h2>
+            <h3>Good with Git</h3>
+            <p>I'm very knowledgeable in Git. When working with a team, I follow the git workflow - development branches, feature branches, etc. Oh, and I use the CLI.</p>
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-code" aria-hidden="true"></i></h2>
+            <h3>Follows Conventions</h3>
+            <p>I do my best to keep up-to-date with the latest code conventions. I'm currently studying the AngularJS Style Guide and refactoring my projects to follow it.</p>
+        </div>
+        <div class="col-md-4">
+            <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
+            <h3>Always Learning</h3>
+            <p>I am always learning new skills and staying current with technology. As I type this, I'm taking a course on Angular2. By the time you read this, I'll probably be proficient.</p>
+        </div>
+    </div>
+</segment>
+
+<segment title="Contact Me" color="grey" triangle="white" id="contact">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Phone</h3>
+            <p class="lead">(678)-736-1423</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Email</h3>
+            <p class="lead">jacksonyeager@gmail.com</p>
+        </div>
+    </div>
+</segment>
+
+<div class="footer">
+    <ul>
+        <li><a href="https://goo.gl/UXo90u">Resume</a></li>
+        <li><a href="https://github.com/yeager-j">Github</a></li>
+    </ul>
+    <ul class="right">
+        <li>Made with <span style="color: red">&lt;3</span> by <a href="http://volition-dev.com">Jackson Yeager</a></li>
+    </ul>
+</div>
