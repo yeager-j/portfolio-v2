@@ -49,7 +49,6 @@
                 subhead: 'A simple, yet elegant, open-source template',
                 description: 'Two weeks into class at DigitalCrafts we were told to start working on our portfolios. I decided to create a template and build my porfolio off of that. This is the result.',
                 source: 'https://github.com/yeager-j/volition-theme',
-                demo: 'http://volition-dev.com/theme',
                 img: 'HTML5'
             },
             {
