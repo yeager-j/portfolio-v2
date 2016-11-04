@@ -10,7 +10,6 @@
                 subhead: 'A starter kit for creating MEAN Stack websites',
                 description: 'This repo contains some basic code for starting your own MEAN Stack website. In terms of functionality, it has a simple profile page. Users can edit their settings and change their password. I use Passport for local authentication and JWT.io for generating tokens.',
                 source: 'https://github.com/yeager-j/mean-starter',
-                demo: 'http://104.131.72.190:3000',
                 img: 'meanlogo'
             },
             {
@@ -18,7 +17,14 @@
                 subhead: 'A website dedicated to the community of coding bootcamps',
                 description: 'This was my final project for DigitalCrafts. It was built off of my MEAN Starter project but it also features custom forums and school registration. Students can submit feedback about a school. The data is displayed graphically on the school\'s profile page.',
                 source: 'https://github.com/yeager-j/devcamp.io',
-                demo: 'http://104.131.72.190:3000',
+                demo: 'http://devcamp.io',
+                img: 'meanlogo'
+            },
+            {
+                title: 'The Progressive Times',
+                subhead: 'A MEAN Stack website built for the new progressive newspaper.',
+                description: 'This is the official website for The Progressive Times. I am working closely with other developers on this project. We decided to start with my MEAN Starterkit and work from there. I am responsible for the front-end and design.',
+                source: 'https://github.com/the-progressive-times/the-progressive-times',
                 img: 'meanlogo'
             },
             {

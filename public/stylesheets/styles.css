@@ -132,8 +132,9 @@ navigation > md-toolbar {
 /* line 116, ../compass/sass/styles.scss */
 md-card {
   text-align: left;
+  min-height: 300px;
 }
-/* line 119, ../compass/sass/styles.scss */
+/* line 120, ../compass/sass/styles.scss */
 md-card md-button {
   font-weight: 500;
 }
