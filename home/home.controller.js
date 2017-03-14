@@ -6,11 +6,11 @@
     function homeController($scope, $mdDialog){
         $scope.projects = [
             {
-                title: 'MEAN Starter',
-                subhead: 'A starter kit for creating MEAN Stack websites',
-                description: 'This repo contains some basic code for starting your own MEAN Stack website. In terms of functionality, it has a simple profile page. Users can edit their settings and change their password. I use Passport for local authentication and JWT.io for generating tokens.',
-                source: 'https://github.com/yeager-j/mean-starter',
-                img: 'meanlogo'
+                title: 'Devcamp.io-frontend',
+                subhead: 'A rewrite of the Devcamp.io project using ES6 syntax with Angular 1.x',
+                description: 'I decided if I wanted to get serious with this project, I should use the most up-to-date technology. Unfortunately, Angular 2 doesn\'t have the libraries Angular 1 has. I decided to do the next best thing and rewrite it using ES6 syntax. ',
+                source: 'https://github.com/yeager-j/devcampio-frontend',
+                img: 'AngularJS'
             },
             {
                 title: 'Devcamp.io',
@@ -47,22 +47,7 @@
                 subhead: 'A beautiful and open-source template for the Minecrafter in all of us.',
                 description: 'I was approached by a client and asked to build a website for his game server. When it was complete, I asked him if I could open-source it (minus a few features) and he agreed. This is the result of my work.',
                 source: 'https://github.com/yeager-j/blockd-theme',
-                demo: 'http://endermite.ca',
                 img: 'CSS3'
-            },
-            {
-                title: 'Volition Theme',
-                subhead: 'A simple, yet elegant, open-source template',
-                description: 'Two weeks into class at DigitalCrafts we were told to start working on our portfolios. I decided to create a template and build my porfolio off of that. This is the result.',
-                source: 'https://github.com/yeager-j/volition-theme',
-                img: 'HTML5'
-            },
-            {
-                title: 'Devcamp.py',
-                subhead: 'A Flask version of Devcamp.io',
-                description: 'This was my backend project during my time at DigitalCrafts. We worked in groups - I was responsible for the forums. While not all of our features work, our forums work perfectly.',
-                source: 'https://github.com/TheNew000/devcamp.py',
-                img: 'flask'
             }
         ];
 
